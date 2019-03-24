@@ -10,28 +10,32 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "@fortawesome/fontawesome-free": "^5.7.2",
+        "@fortawesome/fontawesome-free": "^5.8.1",
         "axios": "^0.18",
-        "bootstrap": "^4.0.0",
+        "bootstrap": "^4.3.1",
         "cross-env": "^5.1",
         "jquery": "^3.2",
-        "laravel-mix": "^2.0",
+        "laravel-mix": "^4.0.15",
         "lodash": "^4.17.4",
-        "material-design-icons-iconfont": "^4.0.4",
+        "material-design-icons-iconfont": "^4.0.5",
         "popper.js": "^1.12",
-        "vue": "^2.5.7"
+        "vue": "^2.6.10"
     },
     "dependencies": {
-        "intl-tel-input": "^15.0.0",
+        "intl-tel-input": "^15.0.1",
         "moment": "^2.24.0",
         "numeral": "^2.0.6",
+        "resolve-url-loader": "^2.3.2",
+        "sass": "^1.17.3",
+        "sass-loader": "^7.1.0",
         "vue-froala-wysiwyg": "^2.9.3",
         "vue-infinite-loading": "^2.4.3",
         "vue-infinite-scroll": "^2.0.2",
         "vue-multiselect": "^2.1.4",
-        "vue-tel-input": "^2.0.13",
+        "vue-tel-input": "^2.0.18",
+        "vue-template-compiler": "^2.6.10",
         "vue-typeahead": "^2.3.2",
         "vuejs-datepicker": "^1.5.4",
-        "vuetify": "^1.4.4"
+        "vuetify": "^1.5.7"
     }
 }
